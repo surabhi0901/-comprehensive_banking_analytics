@@ -1,5 +1,4 @@
-Comprehensive Banking Analytics Project
-Overview
+Comprehensive Banking Analytics Project Overview
 This project aims to provide a comprehensive analysis of banking data. It includes Exploratory Data Analysis (EDA), customer segmentation, credit risk assessment, and performance prediction. The goal is to gain insights into the data, identify key features influencing credit scores, and build predictive models to assess credit risk and performance.
 
 Prerequisites
@@ -12,10 +11,11 @@ scikit-learn
 xgboost
 imbalanced-learn
 matplotlib
-
 You can install these libraries using pip:
-pip install pandas numpy seaborn scikit-learn xgboost imbalanced-learn matplotlib
 
+bash
+Copy code
+pip install pandas numpy seaborn scikit-learn xgboost imbalanced-learn matplotlib
 Data
 The dataset used in this project is a CSV file containing banking information. The data is loaded using pandas and various preprocessing steps are performed to prepare it for analysis and modeling.
 
@@ -32,13 +32,9 @@ Pairplot of numerical columns.
 Distribution of the target variable (Credit Score).
 Countplots to analyze the effect of different features on Credit Score.
 Feature Importance: Using a Random Forest Classifier to identify important features.
-Customer Segmentation:
-Using K-Means clustering for customer segmentation based on selected features.
-Credit Risk Assessment:
-Building and evaluating various classification models to predict Credit Score.
-Performance Prediction:
-Building and evaluating various regression models to predict Credit Score.
-
+Customer Segmentation: Using K-Means clustering for customer segmentation based on selected features.
+Credit Risk Assessment: Building and evaluating various classification models to predict Credit Score.
+Performance Prediction: Building and evaluating various regression models to predict Credit Score.
 Results
 Exploratory Data Analysis (EDA)
 Histograms and boxplots provided insights into the distribution and outliers of numerical features.
