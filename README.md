@@ -217,27 +217,30 @@ weighted avg       0.69      0.63      0.63     20000
 
 ## Performance Prediction
 
+----------
+
 Model: Linear Regression
 Root Mean Squared Error (RMSE): 2.8070534180026826e-15
 R2 Score: 1.0
-----------
+
 Model: Decision Tree Regressor
 Root Mean Squared Error (RMSE): 0.0
 R2 Score: 1.0
-----------
+
 Model: Random Forest Regressor
 Root Mean Squared Error (RMSE): 0.0
 R2 Score: 1.0
-----------
+
 Model: Gradient Boosting Regressor
 Root Mean Squared Error (RMSE): 1.794278735749497e-05
 R2 Score: 0.999999999294415
-----------
+
 Model: XGBoost Regressor
 Root Mean Squared Error (RMSE): 3.329686164276412e-06
 R2 Score: 0.9999999999757017
-----------
+
 Model: KNeighbors Regressor
 Root Mean Squared Error (RMSE): 0.4220118481749061
 R2 Score: 0.6096817763207161
+
 ----------
